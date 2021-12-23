@@ -1,9 +1,6 @@
 using ASP;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
-using System.Collections.Generic;
-using Class;
-using System;
 
 namespace Server
 {
