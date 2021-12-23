@@ -40,31 +40,32 @@ namespace WindowsFormsClient
             // 
             // RegInfoButton
             // 
-            this.RegInfoButton.Location = new System.Drawing.Point(379, 248);
+            this.RegInfoButton.BackColor = System.Drawing.Color.Silver;
+            this.RegInfoButton.Location = new System.Drawing.Point(96, 150);
             this.RegInfoButton.Name = "RegInfoButton";
-            this.RegInfoButton.Size = new System.Drawing.Size(128, 49);
+            this.RegInfoButton.Size = new System.Drawing.Size(128, 29);
             this.RegInfoButton.TabIndex = 0;
-            this.RegInfoButton.Text = "Зарегистрировать данные";
-            this.RegInfoButton.UseVisualStyleBackColor = true;
+            this.RegInfoButton.Text = "Register";
+            this.RegInfoButton.UseVisualStyleBackColor = false;
             this.RegInfoButton.Click += new System.EventHandler(this.button1_Click);
             // 
             // RegNameF2
             // 
-            this.RegNameF2.Location = new System.Drawing.Point(105, 52);
+            this.RegNameF2.Location = new System.Drawing.Point(56, 27);
             this.RegNameF2.Name = "RegNameF2";
             this.RegNameF2.Size = new System.Drawing.Size(220, 20);
             this.RegNameF2.TabIndex = 1;
             // 
             // RegMailF2
             // 
-            this.RegMailF2.Location = new System.Drawing.Point(105, 92);
+            this.RegMailF2.Location = new System.Drawing.Point(56, 69);
             this.RegMailF2.Name = "RegMailF2";
             this.RegMailF2.Size = new System.Drawing.Size(220, 20);
             this.RegMailF2.TabIndex = 1;
             // 
             // RegPhoneF2
             // 
-            this.RegPhoneF2.Location = new System.Drawing.Point(105, 138);
+            this.RegPhoneF2.Location = new System.Drawing.Point(56, 114);
             this.RegPhoneF2.Name = "RegPhoneF2";
             this.RegPhoneF2.Size = new System.Drawing.Size(220, 20);
             this.RegPhoneF2.TabIndex = 1;
@@ -72,7 +73,7 @@ namespace WindowsFormsClient
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(53, 55);
+            this.label1.Location = new System.Drawing.Point(12, 30);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(38, 13);
             this.label1.TabIndex = 2;
@@ -81,7 +82,7 @@ namespace WindowsFormsClient
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(53, 95);
+            this.label2.Location = new System.Drawing.Point(12, 72);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(29, 13);
             this.label2.TabIndex = 2;
@@ -90,7 +91,7 @@ namespace WindowsFormsClient
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(53, 141);
+            this.label3.Location = new System.Drawing.Point(9, 117);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(41, 13);
             this.label3.TabIndex = 2;
@@ -100,7 +101,7 @@ namespace WindowsFormsClient
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(519, 309);
+            this.ClientSize = new System.Drawing.Size(303, 186);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
